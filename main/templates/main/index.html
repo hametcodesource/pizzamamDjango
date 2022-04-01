@@ -1,0 +1,18 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu des Pizzas</title>
+    <link rel="stylesheet" href="{% static 'main/style.css'%}">
+</head>
+<body>
+    <div class="centered">
+        <img id="smail_logo" src="{% static 'main/images/main_logo.png'%}" alt="">
+        <a href="{% url 'menu:index'%}">Voir le menu</a>
+    </div>
+   
+    
+</body>
+</html>
